@@ -1,0 +1,24 @@
+.editorPane {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textarea {
+  width: 100%;
+  height: 100%;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem;
+  border: none;
+  resize: none;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  outline: 1px solid #333;
+}
+
+.textarea:focus {
+  outline: 1px solid #4CAF50;
+}
